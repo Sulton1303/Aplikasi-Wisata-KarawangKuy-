@@ -1,0 +1,48 @@
+name: wisata_karawang
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/Bukit.jpg
+    - images/Candi_Jiwa.jpg
+    - images/Curug_Cigentis.jpg
+    - images/Curug_Cikarapyak.jpg
+    - images/gedung_miring_unsika.jpg
+    - images/Kampung_Budaya.jpeg
+    - images/Monumen_Kebulatan.jpeg
+    - images/Pantai_Tanjung_Baru.jpg
+    - images/Situ_Kamojing.jpg
+    - images/Vihara.jpg
+    - images/Kampung_Turis.jpeg
+
+  fonts:
+    - family: Staatliches
+      fonts:
+        - asset: fonts/Staatliches-Regular.ttf
+
+    - family: Oxygen
+      fonts:
+        - asset: fonts/Oxygen-Regular.ttf
